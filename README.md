@@ -1,6 +1,8 @@
 # Portfolio
 
-My portfolio
+My portfolio application
+
+[thegcoder-portfolio](https://thegcoder-portfolio.herokuapp.com/)
 
 ## Technology Used
 
