@@ -1,2 +1,9 @@
-# thegcoder.github.io
-# thegcode.github.io
+# Portfolio
+
+My portfolio
+
+## Technology Used
+
+- html
+- css
+- nodejs

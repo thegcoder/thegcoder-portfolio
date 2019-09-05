@@ -1,0 +1,12 @@
+{
+  "name": "thegcoder-portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "static-server": "^2.2.1"
+  },
+  "author": "Tai Glover-Slaton",
+  "license": "ISC"
+}

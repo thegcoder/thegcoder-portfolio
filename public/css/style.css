@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.content {
+  max-width: 980px;
+  margin: 0 auto;
+  contain: content;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+  padding: 0 20px;
+  contain: content;
+  border-bottom: 1px gray solid;
+}
+.nav-item {
+  padding: 0 20px;
+  color: tan;
+  font-weight: 700;
+}
+.nav-item a {
+  color: white;
+}
+.footer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: black;
+  padding: 0 20px;
+}
+.footer-item {
+  padding: 0 20px;
+  color: tan;
+  font-weight: 600;
+}
+.footer-item a {
+  color: white;
+}
+img.social {
+  height: 32px;
+}
+.logo {
+  font-size: 1.5em;
+}
+.section {
+  min-height: 180px;
+}
+.section p.about-words,
+.section .contact-items {
+  width: 320px;
+  margin: 10px auto;
+  text-align: center;
+  border: 1px solid gray;
+  background-color: lightblue;
+}
+.section p.about-words {
+  font-family: cursive;
+  font-size: 1.1em;
+  line-height: 8;
+  display: inline-block;
+}
+.section .contact-items {
+  font-size: 1.4em;
+}
+.section .sub {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  background-color: lightgreen;
+  font-weight: 800;
+  font-size: 3em;
+  font-family: fantasy;
+  margin: 10px auto;
+  border: 1px solid gray;
+  width: 100%;
+}
+.section .flex {
+  display: flex;
+}
+.section.head {
+  background-color: black;
+  padding: 10px 0;
+}
+.section .top {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.section .top img {
+  display: inline-flex;
+  max-height: 290px;
+}
+
+@media screen and (max-width: 979px) {
+  .section .top {
+    display: flex;
+    overflow: scroll;
+  }
+}
